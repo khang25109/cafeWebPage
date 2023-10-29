@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  height: 100%;
 }
 
 header {
@@ -12,8 +13,6 @@ header {
 .logo img {
   width: 100px; 
   border-radius: 100px;
-
-
 }
 p{
   font-family: playpen Sans;
@@ -152,82 +151,33 @@ a .navbar .dropbtn .dropdown{
   vertical-align: top;
   width: 50%;
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 10px;
   margin-left: 100px;
-}
-.homeMenu2{
-  margin-top: 270px;
-  vertical-align: top;
-  width: 40%;
-  display: inline-block;
-}
-.item1{
-  width: 30%;
-  vertical-align: top;
-  display: inline-block;
-}
-.depContent, .depr1, .depMore, .depTitle{
-  margin-left: 15px;
-  text-align: start;
-}
-.depr1{
-  height: 550px;
-  background-color: white;
-}
-.depTitle{
-  color: brown;
-  font-weight: bold;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.depContent{
-  line-height: 20px;
-  font-size: 14px;
-  margin-right: 10px;
-
-}
-.depMore{
-  margin-top: 20px;
-}
-.more{
-  color: brown;
-}
-.item2{
-  width: 30%;
-  vertical-align: top;
-  display: inline-block;
-}
-.item3{
-  width: 30%;
-  vertical-align: top;
-  display: inline-block;
 }
 .title, .text, .welcome, .welcome2  {
   color: white;
 }
 .title{
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 50px;
 }
 .welcome{
   font-size: 30px;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .welcome2{
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .text{
   line-height: 30px;
   font-size: 20px;
 }
 .orderBtn{
-  margin-top: 100px;
+  margin-top: 80px;
   width: 200px;
   height: 50px;
   border-style: solid;
@@ -250,6 +200,46 @@ a .navbar .dropbtn .dropdown{
 .orderBtn:active{
   background-color: grey;
 }
+.homeMenu2{
+  margin-top: 165px;
+  vertical-align: top;
+  width: 40%;
+  display: inline-block;
+}
+.displayMenu2{
+  margin: 0;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  height: 200px;
+  column-gap: 10px;
+
+}
+.imgItem{
+  width: 150px;
+}
+.depr1{
+  width: 150px;
+  background-color: white;
+  font-size: 15px;
+}
+.depTitle{
+  color: brown;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.depMore{
+  color: brown;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+.depContent{
+  margin-left: 10px;
+}
+
 
 #news-p  {
   font-size: 5rem;
