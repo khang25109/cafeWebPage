@@ -1,0 +1,229 @@
+body{
+  background-image: url(img/cookiesBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: playpen Sans;
+  color: white;
+}
+header {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.logo{
+  display: inline-block;
+  text-align: center;
+}
+.logo img {
+  width: 100px; 
+  border-radius: 100px;
+}
+#search-box {
+  margin-top: 10px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+#search-button {
+  padding: 8px 20px;
+  background-color: #6f6f6f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #565555;
+  transition: 0.15s;
+}
+
+#serch-button:active{
+  background-color: black;
+}
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: playpen Sans;
+  
+}
+a .navbar .dropbtn .dropdown{
+  display: inline;
+  margin-left: 100px;
+}
+.dropdown {
+
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: playpen Sans;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: brown;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}  
+.header{
+  color: white;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(246, 245, 245);
+  border-bottom-style: solid;
+  display: grid;
+  grid-template-columns:1fr;
+  align-items: center;
+  height: 200px;
+
+}
+.cfmenu{
+  font-family: playpen Sans;
+  font-size: 70px;
+  line-height: 50px;
+  color: white;
+  
+}
+.menuText{
+  margin-top: 20px;
+}
+.leftHeader{
+  margin-left: 100px;
+}
+
+
+.logo{
+  width: 200px;
+  border-radius: 100px;
+}
+.menuItem{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  column-gap: 50px;
+  row-gap: 30px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.item1 {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: white;
+}
+.imgItem1{
+  width: 100%;
+  border-radius: 50%;
+  min-width: 100px;
+}
+.depItem1{
+  margin-left: 20px;
+}
+.addBtn{
+  width: 70px;
+  color: white;
+  background-color: rgb(21, 21, 21);
+  border-radius: 3px;
+  border-style: none;
+  font-family: playpen Sans;
+}
+.addBtn:hover, .checkoutBtn:hover{
+  color: rgb(62, 61, 61);
+  background-color: white;
+  cursor: pointer;
+  transition: 0.20s;
+}
+.addBtn:active, .checkoutBtn:active{
+  background-color: gray;
+}
+.purchase{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 150px;
+  justify-content: center;
+}
+h2, .checkout{
+  color: rgb(255, 255, 255);
+  font-family: playpen Sans;
+}
+h2{
+  background-color: rgb(62, 61, 61);
+  color: rgb(249, 248, 244);
+  border-radius: 5px;
+}
+.checkoutBtn{
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: rgb(62, 61, 61);
+  border-radius: 3px;
+  border-style: none;
+  font-family: playpen Sans;
+}
+@media only screen and (max-width: 480px) {
+}
+

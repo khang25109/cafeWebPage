@@ -10,18 +10,21 @@ header {
   text-align: center;
 }
 
-.logo img {
-  width: 100px; 
-  border-radius: 100px;
-}
 p{
   font-family: playpen Sans;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 img {
   width: 100%;
 }
+
+.logo img {
+  width: 100px; 
+  border-radius: 100px;
+}
+
 
 #search-box {
   margin-top: 10px;
@@ -69,6 +72,10 @@ nav {
   padding: 10px;
   text-align: center;
   list-style: none;
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -143,7 +150,7 @@ a .navbar .dropbtn .dropdown{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.content {
+#content {
   display: inline-block;
 
 }
