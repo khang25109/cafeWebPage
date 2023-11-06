@@ -63,6 +63,8 @@ header{
   background-color: rgb(222, 222, 222);
   padding: 20px 20px 20px;
   position: relative;
+  border-radius: 5px;
+  box-shadow:  0 2px 4px rgba(0, 0, 0, 0.1);;
 }
 
 .box1-text1{
