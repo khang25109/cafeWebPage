@@ -7,7 +7,7 @@ body {
 
 header {
   background-color: #000000;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 1rem 0;
 }
@@ -21,19 +21,15 @@ header {
   margin: 2rem 0;
   font-family: playpen Sans;
   font-size: 20px;
-  z-index: 100;
 }
-.text1{
-  font-size: 30px;
-  color: #fff;
-}
+
 .service-item {
   padding: 1.5rem;
   text-align: center;
   height: 500px;
   background-image: url(img/serviceImg3.jpg);
   background-size: contain;
-  color: #fff;
+  color: aliceblue;
 }
 .service-item2 {
   background-image: url(img/serviceImg2.jpg);
@@ -42,14 +38,17 @@ header {
   padding: 1.5rem;
   text-align: center;
   height: 500px;
-  color: #fff;
 }
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2px;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+.footerP{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

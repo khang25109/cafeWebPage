@@ -2,30 +2,60 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Organic Coffee</title>
-        <link rel="stylesheet" href="oCoffee.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css' rel='stylesheet'>
-        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/redo.css' rel='stylesheet'>
-        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-stop-o.css' rel='stylesheet'> <link href='https://unpkg.com/css.gg@2.0.0/icons/css/printer.css' rel='stylesheet'> 
-        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left.css' rel='stylesheet'>
-        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap" rel="stylesheet">
-        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Coffee</title>
+    <link rel="stylesheet" href="oCoffee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <div class="logo">
+                <a href="myWebPage.html">
+                    <img class="logo" src="img/logo2.jpg" alt="">
+                </a>
+            </div>
+                
+            </header>
+        
+            <nav>
+              <div class="search-area">
+                <input type="text" id="search-box" placeholder="Enter search term">
+                <button id="search-button">Search</button>
+            </div>
+            <div class="navbar">
+                <a href="myWebPage.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Products 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="organicCoffee.html">Organic Coffee</a>
+                      <a href="tea.html">Premium Tea</a>
+                      <a href="cookies.html">Fancy Cookies</a>
+                    </div>
+                  </div> 
+                <a href="services.html">Services</a>
+                <div class="dropdown">
+                    <button class="dropbtn">About Us 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="about.html">About Our Company</a>
+                      <a href="#">Management Team</a>
+                      <a href="careers.html">Careers</a>
+                    </div>
+                  </div> 
+                <a href="contact.html">Contact Us</a>   
+            </div>
+                 
+            </nav>
         <main>
             <div class="header">
                 <div class="leftHeader">
-                    <div class="cfmenu">coffee menu</div>
-                    <div class="menuText">A hot drink made from the roasted</div>
-                </div>
-                <div class="rightHeader">
-                    <a href="myWebPage.html">
-                        <img class="logo" src="img/logo2.jpg" alt="">
-                    </a>
-                 
+                    <p class="cfmenu">coffee menu</p>
+                    <p class="menuText">A hot drink made from the roasted</p>
                 </div>
             </div>
             <div class="menuItem">
@@ -101,7 +131,6 @@
 
             </div>
            
-        </main>   
-            
-    </body>  
+        </main>          
+    </body>
 </html>

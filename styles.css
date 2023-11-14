@@ -1,62 +1,29 @@
 body {
-  font-family: Arial, sans-serif;
   height: 100%;
 }
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%; 
-}
+
 header {
   background-color: black;
   color: #fff;
   padding: 10px;
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+}
+
+p{
+  font-family: playpen Sans;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
 }
 
 .logo img {
   width: 100px; 
   border-radius: 100px;
 }
-p{
-  font-family: playpen Sans;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-img {
-  width: 100%;
-}
-main{
-  margin-left: 100px;
-}
-.sideBar{
-  position: fixed;
-  left: 0;
-  top: 235px;
-  bottom: 40px;
-  background-color: #333;
-  width: 100px;
-  display: grid;
 
-}
-.back, .forward, .print, .stop, .reload{
-  display: flex;
-  color: white;
-  align-items: center;
-  justify-content: center;
-}
-.back:hover, .forward:hover, .print:hover, .stop:hover, .reload:hover{
-  background-color: gray;
-  cursor: pointer;
-  transition: 0.20s;
-}
-.back:active,  .forward:active, .print:active, .stop:active, .reload:active{
-  background-color: rgb(201, 199, 199);
-}
 
 #search-box {
   margin-top: 10px;
@@ -85,18 +52,6 @@ main{
   background-color: black;
 }
 
-#checkout-button {
-  padding: 8px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#checkout-button:hover {
-  background-color: #555;
-}
 
 nav {
   background-color: #333;
@@ -104,25 +59,17 @@ nav {
   padding: 10px;
   text-align: center;
   list-style: none;
-  position: fixed;
-  top: 120px;
-  left: 0;
-  right: 0;
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
 }
 
-main {
-  background-image: url(img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  margin-top: 230px;
-}
 
 .navbar {
   overflow: hidden;
   background-color: #333;
   text-align: center;
-  padding-left: 15px;
 }
 
 .navbar a {
@@ -184,7 +131,27 @@ a .navbar .dropbtn .dropdown{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.content {
+#checkout-button {
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#checkout-button:hover {
+  background-color: #555;
+}
+main {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+
+#content {
   display: inline-block;
 
 }
@@ -346,7 +313,11 @@ footer {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
